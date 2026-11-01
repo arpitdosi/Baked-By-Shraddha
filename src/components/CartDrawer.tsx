@@ -114,7 +114,7 @@ export const CartDrawer: React.FC = () => {
                 </div>
                 <h4 className="font-display font-bold text-lg text-stone-800">Your basket is empty</h4>
                 <p className="text-xs text-stone-500 mt-1 max-w-xs mx-auto">
-                  Browse Sharaddha's pure veg cakes, pastries, cupcakes, and dessert jars to add your favorites.
+                  Browse Shraddha's pure veg cakes, pastries, cupcakes, and dessert jars to add your favorites.
                 </p>
                 <button
                   onClick={() => setIsCartOpen(false)}

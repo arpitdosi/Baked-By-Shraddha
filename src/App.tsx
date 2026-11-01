@@ -178,12 +178,12 @@ const BakeryContent: React.FC = () => {
                 Looking for a Custom Photo or Tier Cake?
               </h3>
               <p className="text-xs sm:text-sm text-emerald-100/90 max-w-xl">
-                Have a reference picture from Pinterest or Instagram? Sharaddha specializes in custom birthday themes, pinata cakes, and wedding anniversary hampers.
+                Have a reference picture from Pinterest or Instagram? Shraddha specializes in custom birthday themes, pinata cakes, and wedding anniversary hampers.
               </p>
             </div>
 
             <a
-              href={`https://wa.me/${storeSettings.whatsappNumber}?text=${encodeURIComponent('Hello Sharaddha ji! I have a customized cake design inquiry for an upcoming celebration.')}`}
+              href={`https://wa.me/${storeSettings.whatsappNumber}?text=${encodeURIComponent('Hello Shraddha ji! I have a customized cake design inquiry for an upcoming celebration.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 rounded-2xl bg-[#25D366] hover:bg-[#1EBE5D] text-white font-bold text-sm shadow-md hover:shadow-xl transition-all flex items-center gap-2 cursor-pointer shrink-0 active:scale-95"

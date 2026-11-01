@@ -40,6 +40,6 @@
   <path d="M96 388 L416 388 C424 388 430 394 430 402 C430 406 426 410 418 410 L94 410 C86 410 82 406 82 402 C82 394 88 388 96 388 Z" fill="#F4CE88"/>
 
   <!-- Bakery Brand Typography in Arc / Center -->
-  <text x="256" y="445" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">BAKED BY SHARADDHA</text>
+  <text x="256" y="445" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">BAKED BY SHRADDHA</text>
   <text x="256" y="475" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="700" fill="#F4CE88" text-anchor="middle" letter-spacing="3">100% PURE VEG</text>
 </svg>

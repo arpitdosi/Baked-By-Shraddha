@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
 
           <div className="flex items-center gap-4">
             <a 
-              href={`https://wa.me/${storeSettings.whatsappNumber}?text=${encodeURIComponent('Namaste Sharaddha ji! I have a question about ordering a cake.')}`}
+              href={`https://wa.me/${storeSettings.whatsappNumber}?text=${encodeURIComponent('Namaste Shraddha ji! I have a question about ordering a cake.')}`}
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-emerald-700 hover:text-emerald-800 font-medium hover:underline"
@@ -72,7 +72,7 @@ export const Header: React.FC = () => {
             <div className="relative group shrink-0">
               <img 
                 src="/logo.png" 
-                alt="Baked by Sharaddha Official Logo" 
+                alt="Baked by Shraddha Official Logo" 
                 className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover shadow-md border-2 border-[#E9C3A0] ring-2 ring-[#7B243B]/20 transition-transform group-hover:scale-105"
               />
             </div>

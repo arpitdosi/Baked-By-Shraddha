@@ -135,6 +135,18 @@ export const BakeryProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         if (!parsed.callingNumber || parsed.callingNumber === '919876543210' || parsed.callingNumber === '9876543210') {
           parsed.callingNumber = '919974787033';
         }
+        if (parsed.shopName && parsed.shopName.includes('Sharaddha')) {
+          parsed.shopName = parsed.shopName.replace(/Sharaddha/g, 'Shraddha');
+        }
+        if (parsed.ownerName && parsed.ownerName.includes('Sharaddha')) {
+          parsed.ownerName = parsed.ownerName.replace(/Sharaddha/g, 'Shraddha');
+        }
+        if (parsed.googleMapsUrl && parsed.googleMapsUrl.includes('Sharaddha')) {
+          parsed.googleMapsUrl = parsed.googleMapsUrl.replace(/Sharaddha/g, 'Shraddha');
+        }
+        if (parsed.upiId && parsed.upiId.includes('sharaddha')) {
+          parsed.upiId = parsed.upiId.replace(/sharaddha/g, 'shraddha');
+        }
         return { ...INITIAL_STORE_SETTINGS, ...parsed };
       }
       return INITIAL_STORE_SETTINGS;

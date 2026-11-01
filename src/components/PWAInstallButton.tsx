@@ -77,7 +77,7 @@ export const PWAInstallButton: React.FC = () => {
               Install Mobile App (APK / PWA)
             </h3>
             <p className="text-xs text-stone-600 mt-1">
-              अपने मोबाइल पर "Baked by Sharaddha" की ऐप इंस्टॉल करें ताकि 1-क्लिक में दुकान खुले:
+              अपने मोबाइल पर "Baked by Shraddha" की ऐप इंस्टॉल करें ताकि 1-क्लिक में दुकान खुले:
             </p>
 
             <div className="mt-4 space-y-3">

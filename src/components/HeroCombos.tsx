@@ -45,7 +45,7 @@ export const HeroCombos: React.FC = () => {
               Special Combo & Launch Deals
             </div>
             <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#3A141D]">
-              Baker Sharaddha's Celebration Combos
+              Baker Shraddha's Celebration Combos
             </h2>
             <p className="text-sm text-[#734A3E] mt-1 max-w-xl">
               Hand-picked party bundles featuring our bestselling cakes, jar cakes, and fluffy cupcakes at exclusive launch savings. 100% Pure Veg.

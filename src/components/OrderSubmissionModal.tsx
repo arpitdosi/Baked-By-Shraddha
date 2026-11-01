@@ -143,7 +143,7 @@ export const OrderSubmissionModal: React.FC = () => {
       } catch {}
     }
 
-    // Format WhatsApp message and redirect to Sharaddha's WhatsApp
+    // Format WhatsApp message and redirect to Shraddha's WhatsApp
     const messageEncoded = formatCustomerWhatsAppMessage(submittedOrder, storeSettings);
     const targetBakerPhone = getCleanPhoneNumber(storeSettings.whatsappNumber);
     const whatsappUrl = `https://wa.me/${targetBakerPhone}?text=${messageEncoded}`;
@@ -169,7 +169,7 @@ export const OrderSubmissionModal: React.FC = () => {
               Complete Your Bakery Order
             </h3>
             <p className="text-xs text-stone-500">
-              Freshly baked on order by Sharaddha • 100% Pure Veg
+              Freshly baked on order by Shraddha • 100% Pure Veg
             </p>
           </div>
 
@@ -320,7 +320,7 @@ export const OrderSubmissionModal: React.FC = () => {
               <div className="bg-[#FAF5EE] p-3.5 rounded-2xl border border-[#E8DACD] text-xs">
                 <div className="font-semibold text-stone-800 flex items-center gap-1.5">
                   <MapPin className="w-3.5 h-3.5 text-[#7B243B]" />
-                  <span>Baker Sharaddha's Kitchen Pickup Point:</span>
+                  <span>Baker Shraddha's Kitchen Pickup Point:</span>
                 </div>
                 <p className="text-stone-600 mt-1 pl-5">
                   {storeSettings.pickupAddress}
@@ -458,7 +458,7 @@ export const OrderSubmissionModal: React.FC = () => {
           {/* Section 5: Additional Notes */}
           <div>
             <label className="block text-xs font-semibold text-stone-700 mb-1">
-              Any special message or instructions for Sharaddha? (Optional)
+              Any special message or instructions for Shraddha? (Optional)
             </label>
             <input
               type="text"
@@ -496,7 +496,7 @@ export const OrderSubmissionModal: React.FC = () => {
               className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white font-bold text-sm shadow-md hover:shadow-xl transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98"
             >
               <Send className="w-4 h-4 fill-white" />
-              <span>Confirm Order & Send to Sharaddha on WhatsApp</span>
+              <span>Confirm Order & Send to Shraddha on WhatsApp</span>
             </button>
             <p className="text-center text-[11px] text-stone-500 mt-2">
               🔒 Clicking this will record your order and open WhatsApp with your full cake specification.

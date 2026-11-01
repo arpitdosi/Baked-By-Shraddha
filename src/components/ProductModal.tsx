@@ -357,10 +357,10 @@ export const ProductModal: React.FC = () => {
             </div>
           </div>
 
-          {/* 5. Special Notes for Sharaddha */}
+          {/* 5. Special Notes for Shraddha */}
           <div>
             <label className="block text-xs font-bold text-stone-800 uppercase tracking-wider mb-1.5">
-              5. Special Request for Baker Sharaddha
+              5. Special Request for Baker Shraddha
             </label>
             <input
               type="text"

@@ -39,7 +39,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onClose }) => {
             <Lock className="w-7 h-7" />
           </div>
           <h3 className="font-display font-bold text-2xl text-[#2C1810]">
-            Baker Sharaddha's Portal
+            Baker Shraddha's Portal
           </h3>
           <p className="text-xs text-stone-500 mt-1">
             Private management portal for menu, dynamic pricing, offers, and incoming orders.

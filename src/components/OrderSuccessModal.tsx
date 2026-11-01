@@ -80,7 +80,7 @@ export const OrderSuccessModal: React.FC = () => {
           Thank You, {order.customerName}!
         </h3>
         <p className="text-xs sm:text-sm text-stone-600 mt-2 max-w-sm mx-auto">
-          Your order has been sent to Baker Sharaddha. She prepares all bakes fresh in her 100% pure veg home kitchen.
+          Your order has been sent to Baker Shraddha. She prepares all bakes fresh in her 100% pure veg home kitchen.
         </p>
 
         {/* Order Details Ticket Box */}
@@ -151,7 +151,7 @@ export const OrderSuccessModal: React.FC = () => {
             className="w-full py-3.5 rounded-2xl bg-[#25D366] hover:bg-[#20BA5C] text-white font-bold text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98"
           >
             <Send className="w-4 h-4 fill-white" />
-            <span>Open WhatsApp with Baker Sharaddha</span>
+            <span>Open WhatsApp with Baker Shraddha</span>
           </button>
 
           <button

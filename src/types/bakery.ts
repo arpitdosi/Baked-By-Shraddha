@@ -20,7 +20,7 @@ export interface Product {
   images?: string[]; // Up to 4 images for multi-angle showcase
   weights: WeightOption[];
   flavours: string[];
-  isVeg: boolean; // Always true for Baked by Sharaddha
+  isVeg: boolean; // Always true for Baked by Shraddha
   isBestseller?: boolean;
   isNew?: boolean;
   isCombo?: boolean;

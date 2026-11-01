@@ -58,10 +58,10 @@ ${order.notesForBaker ? `📝 *Special Request for Baker:* ${order.notesForBaker
 
 export function formatBakerStatusUpdateMessage(order: CustomerOrder, settings: StoreSettings): string {
   const statusTexts: Record<string, string> = {
-    confirmed: '🎉 Your order has been *CONFIRMED* by Baker Sharaddha! We are gathering premium pure veg ingredients.',
+    confirmed: '🎉 Your order has been *CONFIRMED* by Baker Shraddha! We are gathering premium pure veg ingredients.',
     baking: '👩‍🍳 Fresh batter in the oven! Your homemade treat is currently *BEING BAKED* with love.',
     ready: '✨ Ding! Your order is *READY* for pickup / delivery dispatch!',
-    delivered: '❤️ Your order has been *DELIVERED*. We hope you loved every bite of Baked by Sharaddha!',
+    delivered: '❤️ Your order has been *DELIVERED*. We hope you loved every bite of Baked by Shraddha!',
     cancelled: '⚠️ Your order has been cancelled. Please contact us for any query.'
   };
 

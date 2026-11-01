@@ -391,15 +391,15 @@ export const INITIAL_PRODUCTS: Product[] = [
 ];
 
 export const INITIAL_STORE_SETTINGS: StoreSettings = {
-  shopName: 'Baked by Sharaddha',
+  shopName: 'Baked by Shraddha',
   tagline: '100% Pure Veg (Eggless) Homemade Artisan Bakery',
-  ownerName: 'Sharaddha',
+  ownerName: 'Shraddha',
   whatsappNumber: '919974787033', // Updated to 9974787033
   callingNumber: '919974787033',
   city: 'Indore / Local Home Kitchen',
   pickupAddress: 'Sector B, Near Garden Park (Exact address shared on order confirmation)',
-  googleMapsUrl: 'https://maps.google.com/?q=Baked+by+Sharaddha+Homemade+Artisan+Cakes',
-  upiId: 'bakedbysharaddha@okaxis',
+  googleMapsUrl: 'https://maps.google.com/?q=Baked+by+Shraddha+Homemade+Artisan+Cakes',
+  upiId: 'bakedbyshraddha@okaxis',
   minOrderLeadHours: 4,
   freeDeliveryAbove: 800,
   standardDeliveryFee: 50,

@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3 mb-3">
               <img 
                 src="/logo.png" 
-                alt="Baked by Sharaddha Logo" 
+                alt="Baked by Shraddha Logo" 
                 className="w-11 h-11 rounded-full object-cover border-2 border-amber-200/40 shadow-md shrink-0" 
               />
               <div>
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-[#C9A699] leading-relaxed">
-              Started by passionate home baker Sharaddha, crafting sweet memories with 100% pure veg artisan cakes, pastries, cupcakes, and jar cakes. Every treat is baked from scratch only after you order.
+              Started by passionate home baker Shraddha, crafting sweet memories with 100% pure veg artisan cakes, pastries, cupcakes, and jar cakes. Every treat is baked from scratch only after you order.
             </p>
             <div className="mt-3 flex items-center gap-2 text-emerald-400 font-semibold">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>

@@ -46,7 +46,7 @@ export const AdminSettings: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `baked_by_sharaddha_backup_${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `baked_by_shraddha_backup_${new Date().toISOString().split('T')[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -153,7 +153,7 @@ export const AdminSettings: React.FC = () => {
           <div>
             <label className="block font-semibold text-stone-700 mb-1 flex items-center gap-1">
               <Phone className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Sharaddha's WhatsApp Number (with Country Code) *</span>
+              <span>Shraddha's WhatsApp Number (with Country Code) *</span>
             </label>
             <input
               type="text"
@@ -177,7 +177,7 @@ export const AdminSettings: React.FC = () => {
               type="text"
               value={formData.upiId}
               onChange={(e) => handleChange('upiId', e.target.value)}
-              placeholder="e.g. bakedbysharaddha@okaxis"
+              placeholder="e.g. bakedbyshraddha@okaxis"
               className="w-full px-3 py-1.5 bg-[#FAF5EE] border border-[#E9D9CB] rounded-xl font-mono font-bold"
             />
             <p className="text-[10px] text-stone-500 mt-0.5">
