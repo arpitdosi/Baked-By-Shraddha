@@ -221,7 +221,7 @@ export const OrderSubmissionModal: React.FC = () => {
                     required
                     value={customerPhone}
                     onChange={(e) => setCustomerPhone(e.target.value)}
-                    placeholder="10-digit number e.g. 9876543210"
+                    placeholder="10-digit number e.g. 9974787033"
                     className="w-full pl-9 pr-3.5 py-2 text-xs bg-[#FAF5EE] border border-[#E9D9CB] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#7B243B]"
                   />
                 </div>

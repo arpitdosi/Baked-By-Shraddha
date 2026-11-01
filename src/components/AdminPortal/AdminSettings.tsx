@@ -94,6 +94,24 @@ export const AdminSettings: React.FC = () => {
           </button>
         </div>
 
+        {/* Official Bakery Brand Logo Preview */}
+        <div className="p-3.5 rounded-2xl bg-[#FFF9F5] border border-[#F0D8C0] flex items-center gap-4">
+          <img 
+            src="/logo.png" 
+            alt="Bakery Brand Logo" 
+            className="w-16 h-16 rounded-2xl object-cover shadow-md border-2 border-[#E9C3A0] shrink-0"
+          />
+          <div>
+            <div className="flex items-center gap-2">
+              <h5 className="font-bold text-xs text-[#3A141D]">Official Bakery Brand Logo & Mobile App Icon</h5>
+              <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">Active</span>
+            </div>
+            <p className="text-[11px] text-stone-600 mt-0.5">
+              Yeh logo website ke header, footer, share link card aur customer ke mobile me download hone par app icon ki tarah dikhai dega.
+            </p>
+          </div>
+        </div>
+
         {/* Brand & Owner */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
@@ -142,7 +160,7 @@ export const AdminSettings: React.FC = () => {
               required
               value={formData.whatsappNumber}
               onChange={(e) => handleChange('whatsappNumber', e.target.value)}
-              placeholder="e.g. 919876543210"
+              placeholder="e.g. 919974787033"
               className="w-full px-3 py-1.5 bg-[#FAF5EE] border border-[#E9D9CB] rounded-xl font-mono font-bold"
             />
             <p className="text-[10px] text-stone-500 mt-0.5">

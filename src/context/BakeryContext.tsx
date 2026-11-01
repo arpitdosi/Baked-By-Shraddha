@@ -129,6 +129,12 @@ export const BakeryProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         if (parsed.adminPin === '1234' || !parsed.adminPin) {
           parsed.adminPin = '0911';
         }
+        if (!parsed.whatsappNumber || parsed.whatsappNumber === '919876543210' || parsed.whatsappNumber === '9876543210') {
+          parsed.whatsappNumber = '919974787033';
+        }
+        if (!parsed.callingNumber || parsed.callingNumber === '919876543210' || parsed.callingNumber === '9876543210') {
+          parsed.callingNumber = '919974787033';
+        }
         return { ...INITIAL_STORE_SETTINGS, ...parsed };
       }
       return INITIAL_STORE_SETTINGS;

@@ -11,11 +11,11 @@ export default defineConfig(() => {
       tailwindcss(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['icon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
+        includeAssets: ['icon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png', 'pwa-maskable-512x512.png', 'logo.png', 'favicon.png'],
         manifest: {
           id: '/',
-          name: 'Baked by Sharaddha - 100% Pure Veg Bakery',
-          short_name: 'SharaddhaCake',
+          name: 'Baked by Shraddha - 100% Pure Veg Bakery',
+          short_name: 'BakedByShraddha',
           description: 'Order homemade 100% pure veg fresh cakes, pastries, cupcakes, and jar cakes.',
           theme_color: '#7B243B',
           background_color: '#FFFDF9',

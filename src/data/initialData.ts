@@ -394,8 +394,8 @@ export const INITIAL_STORE_SETTINGS: StoreSettings = {
   shopName: 'Baked by Sharaddha',
   tagline: '100% Pure Veg (Eggless) Homemade Artisan Bakery',
   ownerName: 'Sharaddha',
-  whatsappNumber: '919876543210', // Easily editable in admin settings
-  callingNumber: '919876543210',
+  whatsappNumber: '919974787033', // Updated to 9974787033
+  callingNumber: '919974787033',
   city: 'Indore / Local Home Kitchen',
   pickupAddress: 'Sector B, Near Garden Park (Exact address shared on order confirmation)',
   googleMapsUrl: 'https://maps.google.com/?q=Baked+by+Sharaddha+Homemade+Artisan+Cakes',

@@ -65,13 +65,18 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-10 border-b border-[#3D1D25] text-xs">
           {/* Column 1: Brand story */}
           <div>
-            <div className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 rounded-xl bg-[#7B243B] flex items-center justify-center text-white">
-                <Cake className="w-4 h-4" />
+            <div className="flex items-center gap-3 mb-3">
+              <img 
+                src="/logo.png" 
+                alt="Baked by Sharaddha Logo" 
+                className="w-11 h-11 rounded-full object-cover border-2 border-amber-200/40 shadow-md shrink-0" 
+              />
+              <div>
+                <h4 className="font-display font-bold text-lg text-white leading-tight">
+                  {storeSettings.shopName}
+                </h4>
+                <span className="text-[10px] text-amber-200/80 font-medium">Homemade with Love • 100% Pure Veg</span>
               </div>
-              <h4 className="font-display font-bold text-lg text-white">
-                {storeSettings.shopName}
-              </h4>
             </div>
             <p className="text-[#C9A699] leading-relaxed">
               Started by passionate home baker Sharaddha, crafting sweet memories with 100% pure veg artisan cakes, pastries, cupcakes, and jar cakes. Every treat is baked from scratch only after you order.

@@ -59,8 +59,18 @@ export const PWAInstallButton: React.FC = () => {
               <X className="w-4 h-4" />
             </button>
 
-            <div className="w-12 h-12 rounded-2xl bg-[#7B243B]/10 text-[#7B243B] flex items-center justify-center mb-3">
-              <Download className="w-6 h-6 stroke-[2.2]" />
+            <div className="flex items-center gap-3.5 mb-3">
+              <img 
+                src="/logo.png" 
+                alt="App Logo" 
+                className="w-14 h-14 rounded-2xl shadow-md border-2 border-[#E9C3A0] object-cover shrink-0" 
+              />
+              <div>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                  Official Mobile App
+                </span>
+                <div className="text-xs text-stone-500 font-medium mt-0.5">App Icon on your phone</div>
+              </div>
             </div>
 
             <h3 className="font-display font-bold text-xl text-[#2C1810]">

@@ -69,8 +69,12 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between gap-4">
           {/* Logo & Brand Identity */}
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#7B243B] via-[#8F2D56] to-[#C85A32] flex items-center justify-center shadow-md text-white p-2">
-              <Cake className="w-6 h-6 stroke-[2]" />
+            <div className="relative group shrink-0">
+              <img 
+                src="/logo.png" 
+                alt="Baked by Sharaddha Official Logo" 
+                className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover shadow-md border-2 border-[#E9C3A0] ring-2 ring-[#7B243B]/20 transition-transform group-hover:scale-105"
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
@@ -78,7 +82,7 @@ export const Header: React.FC = () => {
                   {storeSettings.shopName}
                 </h1>
                 <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 text-[10px] font-bold border border-rose-200">
-                  <Sparkles className="w-2.5 h-2.5 fill-rose-500 text-rose-500" /> Home Baker
+                  <Sparkles className="w-2.5 h-2.5 fill-rose-500 text-rose-500" /> Pure Veg Baker
                 </span>
               </div>
               <p className="text-xs text-[#8A6A5E] font-medium line-clamp-1">
