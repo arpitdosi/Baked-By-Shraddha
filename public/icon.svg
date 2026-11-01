@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E2D45"/>
+      <stop offset="50%" stop-color="#7B243B"/>
+      <stop offset="100%" stop-color="#551424"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFE7C4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFE7C4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background with rounded squircle safe zone -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)"/>
+  <rect width="512" height="512" rx="120" fill="url(#goldGlow)"/>
+
+  <!-- Gold Ring Decorative Border -->
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#F4CE88" stroke-width="6" stroke-opacity="0.6"/>
+
+  <!-- Pure Veg Green Indicator Badge (Top Right) -->
+  <rect x="372" y="52" width="80" height="80" rx="16" fill="#FFFFFF" stroke="#16A34A" stroke-width="4"/>
+  <circle cx="412" cy="92" r="22" fill="#16A34A"/>
+
+  <!-- Bakery Cake Icon Artwork -->
+  <!-- Candle Flame -->
+  <path d="M256 100 C262 120 270 135 270 148 C270 156 264 162 256 162 C248 162 242 156 242 148 C242 135 250 120 256 100 Z" fill="#F59E0B"/>
+  <circle cx="256" cy="146" r="6" fill="#FDE68A"/>
+
+  <!-- Candle Stick -->
+  <rect x="251" y="162" width="10" height="42" rx="3" fill="#FFFBEB"/>
+
+  <!-- Cake Top Tier (Frosting Layer 1) -->
+  <path d="M190 204 L322 204 C330 204 336 210 336 218 L336 250 C336 260 328 268 318 268 C310 268 304 262 300 256 C296 264 286 268 276 268 C266 268 258 260 256 254 C254 260 246 268 236 268 C226 268 216 264 212 256 C208 262 202 268 194 268 C184 268 176 260 176 250 L176 218 C176 210 182 204 190 204 Z" fill="#FFF5EC"/>
+  
+  <!-- Cake Base Tier -->
+  <path d="M140 276 L372 276 C382 276 390 284 390 294 L390 356 C390 366 382 374 372 374 C360 374 352 366 348 358 C342 368 330 374 316 374 C302 374 292 366 286 358 C280 368 268 374 256 374 C244 374 232 368 226 358 C220 366 210 374 196 374 C182 374 170 368 164 358 C160 366 152 374 140 374 C130 374 122 366 122 356 L122 294 C122 284 130 276 140 276 Z" fill="#FFE8D2"/>
+
+  <!-- Decorative Cake Plate -->
+  <path d="M96 388 L416 388 C424 388 430 394 430 402 C430 406 426 410 418 410 L94 410 C86 410 82 406 82 402 C82 394 88 388 96 388 Z" fill="#F4CE88"/>
+
+  <!-- Bakery Brand Typography in Arc / Center -->
+  <text x="256" y="445" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">BAKED BY SHARADDHA</text>
+  <text x="256" y="475" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="700" fill="#F4CE88" text-anchor="middle" letter-spacing="3">100% PURE VEG</text>
+</svg>

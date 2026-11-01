@@ -122,6 +122,18 @@ export const Footer: React.FC = () => {
                 <div>
                   <div>Self Pickup Kitchen Address:</div>
                   <span className="text-stone-300">{storeSettings.pickupAddress}</span>
+                  {storeSettings.googleMapsUrl && (
+                    <div className="mt-1">
+                      <a 
+                        href={storeSettings.googleMapsUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-300 hover:text-blue-200 underline font-semibold inline-flex items-center gap-1"
+                      >
+                        📍 Open Google Maps (रास्ता देखें)
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -134,7 +146,7 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} {storeSettings.shopName}. Handcrafted with ❤️ for sweet celebrations.
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <button
               onClick={() => setIsAdminOpen(true)}
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 text-[#C9A699] hover:text-white transition-colors cursor-pointer border border-white/10"

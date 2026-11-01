@@ -10,6 +10,7 @@ import {
   Sparkles,
   Cake
 } from 'lucide-react';
+import { PWAInstallButton } from './PWAInstallButton';
 
 export const Header: React.FC = () => {
   const { 
@@ -108,8 +109,9 @@ export const Header: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Action: Cart button */}
-          <div className="flex items-center gap-3">
+          {/* Right Action: Install App & Cart button */}
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <PWAInstallButton />
             <button
               onClick={() => setIsCartOpen(true)}
               className="relative flex items-center gap-2.5 px-4 py-2 bg-gradient-to-r from-[#7B243B] to-[#591C2B] hover:from-[#8E2843] hover:to-[#681E31] text-white rounded-full shadow-md hover:shadow-lg transition-all active:scale-95 cursor-pointer"
