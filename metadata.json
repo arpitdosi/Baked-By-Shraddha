@@ -1,0 +1,6 @@
+{
+  "name": "Baked by Sharaddha - 100% Pure Veg Artisanal Home Bakery",
+  "description": "Order homemade 100% pure veg cakes, pastries, cupcakes, and jar cakes with custom weight, flavours, and combos. Includes hidden admin portal for menu and order management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
